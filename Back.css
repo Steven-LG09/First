@@ -1,13 +1,32 @@
 body{
-    background-color: lightblue;
+    background-color: black;
 }
 
 header{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 30px;
     font-style: oblique;
 }
 h3{
+    color: white;
     text-align: center;
+}
+#centro{
+    width: 300px;
+    height: 300px;
+}
+.row {
+    display: flex;
+}
+  
+.column1 {
+    flex: 50%;
+}
+
+.column2 {
+    flex: 50%;
+}
+.column {
+    flex: 50%;
 }
