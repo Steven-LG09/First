@@ -1,16 +1,56 @@
 body{
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 header{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 30px;
     font-style: oblique;
 }
 h3{
     color: white;
     text-align: center;
+}
+#button1{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border-color: aqua;
+    transform: translate(80px,20px);
+    font-size: medium;
+}
+#button2{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border-color: aqua;
+    transform: translate(-80px,20px);
+    font-size: medium;
+}
+#button3,#button4{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border-color: aqua;
+    transform: translate(0px,50px);
+    font-size: medium;
+}
+#button5{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border-color: aqua;
+    transform: translate(80px,40px);
+    font-size: medium;
+}
+#button6{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border-color: aqua;
+    transform: translate(-80px,40px);
+    font-size: medium;
 }
 #centro{
     width: 300px;
@@ -19,6 +59,7 @@ h3{
 #line1{
     color: aliceblue;
     display: flex;
+    height: 150px;
 }
 #line1_1,#line1_2{
     width: 50%;
@@ -27,6 +68,7 @@ h3{
 #line2{
     color: aliceblue;
     display: flex;
+    vertical-align: middle;
 }
 #line2_1,#line2_2,#line2_3{
     width: 33%;
@@ -39,5 +81,10 @@ h3{
 #line3_1,#line3_2{
     width: 50%;
     text-align: center;
+}
+#yo{
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
 }
 
