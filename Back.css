@@ -16,17 +16,28 @@ h3{
     width: 300px;
     height: 300px;
 }
-.row {
+#line1{
+    color: aliceblue;
     display: flex;
 }
-  
-.column1 {
-    flex: 50%;
+#line1_1,#line1_2{
+    width: 50%;
+    text-align: center;
+}
+#line2{
+    color: aliceblue;
+    display: flex;
+}
+#line2_1,#line2_2,#line2_3{
+    width: 33%;
+    text-align: center;
+}
+#line3{
+    color: aliceblue;
+    display: flex;
+}
+#line3_1,#line3_2{
+    width: 50%;
+    text-align: center;
 }
 
-.column2 {
-    flex: 50%;
-}
-.column {
-    flex: 50%;
-}
