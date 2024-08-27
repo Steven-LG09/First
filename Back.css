@@ -1,10 +1,11 @@
 body{
     background-color: whitesmoke;
+    background-image: url(https://preview.redd.it/anyone-interested-in-making-the-animation-for-the-matrix-v0-4904jjjxjlja1.png?width=1080&crop=smart&auto=webp&s=16dc6d2534fac938004f638b27c74fbd60c1b598);
 }
 
 header{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 30px;
     font-style: oblique;
 }
@@ -16,7 +17,8 @@ h3{
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    border-color: aqua;
+    border-color: #3aab73;
+    color: #195d3a;
     transform: translate(80px,20px);
     font-size: medium;
 }
@@ -24,7 +26,8 @@ h3{
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    border-color: aqua;
+    border-color: #3aab73;
+    color: #195d3a;
     transform: translate(-80px,20px);
     font-size: medium;
 }
@@ -32,7 +35,8 @@ h3{
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    border-color: aqua;
+    border-color: #3aab73;
+    color: #195d3a;
     transform: translate(0px,50px);
     font-size: medium;
 }
@@ -40,7 +44,8 @@ h3{
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    border-color: aqua;
+    border-color: #3aab73;
+    color: #195d3a;
     transform: translate(80px,40px);
     font-size: medium;
 }
@@ -48,7 +53,8 @@ h3{
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    border-color: aqua;
+    border-color: #3aab73;
+    color: #195d3a;
     transform: translate(-80px,40px);
     font-size: medium;
 }
