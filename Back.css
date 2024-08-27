@@ -5,6 +5,7 @@ body{
 
 header{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 30px;
     font-style: oblique;
@@ -15,6 +16,7 @@ h3{
     text-align: center;
 }
 #button1{
+    font-family: 'Times New Roman', Times, serif;
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -23,8 +25,10 @@ h3{
     transform: translate(80px,20px);
     font-size: medium;
     transition-duration: 0,4s;
+    cursor: grabbing;
 }
 #button2{
+    font-family: 'Times New Roman', Times, serif;
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -33,8 +37,10 @@ h3{
     transform: translate(-80px,20px);
     font-size: medium;
     transition-duration: 0,4s;
+    cursor: grabbing;
 }
 #button3,#button4{
+    font-family: 'Times New Roman', Times, serif;
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -43,8 +49,10 @@ h3{
     transform: translate(0px,50px);
     font-size: medium;
     transition-duration: 0,4s;
+    cursor: grabbing;
 }
 #button5{
+    font-family: 'Times New Roman', Times, serif;
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -53,8 +61,10 @@ h3{
     transform: translate(80px,40px);
     font-size: medium;
     transition-duration: 0,4s;
+    cursor: grabbing;
 }
 #button6{
+    font-family: 'Times New Roman', Times, serif;
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -63,6 +73,7 @@ h3{
     transform: translate(-80px,40px);
     font-size: medium;
     transition-duration: 0,4s;
+    cursor: grabbing;
 }
 #button1:hover,#button2:hover,#button3:hover,#button4:hover,#button5:hover,#button6:hover{
     background-color: black;
@@ -104,5 +115,36 @@ h3{
     height: 200px;
     border-radius: 15px;
     border: 3px solid #3aab73;
+    filter: grayscale(30%);
+    transition: .5s ease;
+    backface-visibility: hidden;
+    transform: translate(8px,0px);
 }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .container:hover #yo {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: oblique;
+    text-shadow: 3px 3px 5px #3aab73;
+    background-color: #195d3a;
+    font-size: 16px;
+    padding: 15px 15px;
+  }
 
