@@ -1,6 +1,36 @@
-body{
-    background-color: whitesmoke;
+#main{
     background-image: url(https://preview.redd.it/anyone-interested-in-making-the-animation-for-the-matrix-v0-4904jjjxjlja1.png?width=1080&crop=smart&auto=webp&s=16dc6d2534fac938004f638b27c74fbd60c1b598);
+}
+.aboutMe{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/746d5571-d784-4094-a24d-a3bdbc7e1013/dfoij5k-96c3f665-b433-47ad-a2e0-51c5b50bde53.png/v1/fill/w_1192,h_670,q_70,strp/matrix_code_in_blue_by_wuksoy_dfoij5k-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNzQ2ZDU1NzEtZDc4NC00MDk0LWEyNGQtYTNiZGJjN2UxMDEzXC9kZm9pajVrLTk2YzNmNjY1LWI0MzMtNDdhZC1hMmUwLTUxYzViNTBiZGU1My5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.C6GdxJKvZ7EwOSmDCBP-MnT4bPqo-WgPm9GzrmcCxRM);
+}
+.atras{
+    font-family: 'Times New Roman', Times, serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: gray;
+    color: black;
+    font-size: medium;
+    transition-duration: 0,4s;
+    cursor: grabbing;
+}
+.atras:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.438);
+}
+.block{
+    background-color: #0a4d8c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 20px;
+}
+.line1am{
+    display: flex;
+    height: 300px;
+    padding: 20px;
 }
 
 header{
@@ -119,6 +149,13 @@ h3{
     transition: .5s ease;
     backface-visibility: hidden;
     transform: translate(8px,0px);
+}
+.foto{
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    border: 3px solid #35d0ef;
+    filter: saturate(100%);
 }
 .middle {
     transition: .5s ease;
