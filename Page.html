@@ -6,6 +6,15 @@
             Mi portafolio
         </title>
         <link rel="stylesheet" href="Back.css">
+        <link rel="icon" href="man.png" type="image/png">
+        <script>
+            function transitionToPage(href) {
+                document.body.classList.add('fade-out');
+                setTimeout(function() {
+                    window.location.href = href;
+                }, 1000);
+            }
+        </script>
     </head>
     <body id="main">
         <header>
@@ -13,7 +22,7 @@
         </header>
         <div id="line1">
             <div id="line1_1">
-                <button id="button1" type="button" onclick="window.location.href='About_me.html'"><strong>Sobre mí</strong></button>
+                <button id="button1" type="button" href="#" onclick="transitionToPage('About_me.html')"><strong>Sobre mí</strong></button>
             </div>
             <div id="line1_2">
                 <button id="button2" type="button" onclick="window.location.href='Education.html'"><strong>Educación</strong></button>

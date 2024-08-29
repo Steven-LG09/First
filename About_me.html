@@ -6,10 +6,19 @@
             Sobre mí
         </title>
         <link rel="stylesheet" href="Back.css">
+        <link rel="icon" href="man.png" type="image/png">
+        <script>
+            function transitionToPage(href) {
+                document.body.classList.add('fade-out');
+                setTimeout(function() {
+                    window.location.href = href;
+                }, 1000);
+            }
+        </script>
     </head>
     <body class="aboutMe">
         <header>
-            <button class="atras" type="button">Atras</button>
+            <button class="atras" type="button" href="#" onclick="transitionToPage('Page.html')">Atras</button>
         </header>
         <text>--</text>
         <div class="block">
@@ -18,9 +27,19 @@
                     <img class="foto" src="https://lh3.googleusercontent.com/pw/AP1GczM-FKTE7OHSbBmZ6r22USKV2kxaE-ISWwrMtrx_hofYYXRlpgFWJqvIEnZmnGBrOXXN_mmmI_t8-JTwcVaVLIUsJBUBgGwFwm5HXis5lZK20iqTYAoYJLNNT_jSqmSgbMnRFagBJvDQNPXklmfqRlQT=w480-h641-s-no-gm?authuser=0" alt="Foto">
                 </div>
                 <div class="line1_2am">
-
+                    <h1 class="nombre">STEVEN LÓPEZ GIRALDO</h1>
+                    <h2 class="rol">Desarrollador de Software</h2>
+                    <h2 class="rol2">Full-Stack developer</h2>
+                    <h3 class="frase">"El fin justifica los medios"</h3>
                 </div>
             </div>
+            <p class="description">Soy un desarrollador de software enfocado principalmente en desarrollo web, desarrollo movil y 
+                desarrollo en otros dispositivos electronicos. Aparte de la programación tambien me llama la atención 
+                el desarrollo de proyectos electronicos y programacion a nivel industrial enfocado en la automatización.
+                En un futuro cercano me gustaria tener mi propia empresa la cual desarrolle software para las diferentes empresas 
+                del pais y del mundo.
+
+            </p>
         </div>
 
     </body>
