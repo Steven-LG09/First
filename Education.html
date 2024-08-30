@@ -3,11 +3,27 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Sobre mí
+            Educación
         </title>
         <link rel="stylesheet" href="Back.css">
+        <link rel="icon" href="man.png" type="image/png">
+        <script>
+            function transitionToPage(href) {
+                document.body.classList.add('fade-out');
+                setTimeout(function() {
+                    window.location.href = href;
+                }, 1000);
+            }
+        </script>
     </head>
-    <body>
+    <body class="education">
+        <header>
+            <button class="atras" type="button" href="#" onclick="transitionToPage('Page.html')">Atras</button>
+        </header>
+        <text>--</text>
+        <div class="block1">
+            <h1 class="nombre2">Educación</h1>
+        </div>
 
     </body>
 </html>
