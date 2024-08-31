@@ -1,5 +1,5 @@
 #main{
-    background-image: url(https://preview.redd.it/anyone-interested-in-making-the-animation-for-the-matrix-v0-4904jjjxjlja1.png?width=1080&crop=smart&auto=webp&s=16dc6d2534fac938004f638b27c74fbd60c1b598);
+    background-image: url(https://drive.google.com/file/d/1kJGdnJ66dXkrrDeFr-OUIQ8F07x3Uqf7/view?usp=sharing);
     animation: fadeIn 2s ease-in-out;
     background-color: black;
 }
@@ -96,11 +96,18 @@
     color: black;
     font-size: large;
 }
+.description2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    text-align: center;
+}
 header{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     font-style: oblique;
     text-shadow: 3px 3px 5px #3aab73;
 }
@@ -110,61 +117,61 @@ h3{
 }
 #button1{
     font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     border-color: #3aab73;
     color: #195d3a;
     transform: translate(80px,20px);
-    font-size: medium;
+    font-size: large;
     transition-duration: 0,4s;
     cursor: grabbing;
 }
 #button2{
     font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     border-color: #3aab73;
     color: #195d3a;
     transform: translate(-80px,20px);
-    font-size: medium;
+    font-size: large;
     transition-duration: 0,4s;
     cursor: grabbing;
 }
 #button3,#button4{
     font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     border-color: #3aab73;
     color: #195d3a;
     transform: translate(0px,50px);
-    font-size: medium;
+    font-size: large;
     transition-duration: 0,4s;
     cursor: grabbing;
 }
 #button5{
     font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     border-color: #3aab73;
     color: #195d3a;
     transform: translate(80px,40px);
-    font-size: medium;
+    font-size: large;
     transition-duration: 0,4s;
     cursor: grabbing;
 }
 #button6{
     font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     border-color: #3aab73;
     color: #195d3a;
     transform: translate(-80px,40px);
-    font-size: medium;
+    font-size: large;
     transition-duration: 0,4s;
     cursor: grabbing;
 }
@@ -204,14 +211,14 @@ h3{
     text-align: center;
 }
 #yo{
-    width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 210px;
     border-radius: 15px;
-    border: 3px solid #3aab73;
-    filter: grayscale(30%);
+    border: 3px solid rgb(119, 9, 119);
+    filter: invert(100%);
     transition: .5s ease;
     backface-visibility: hidden;
-    transform: translate(8px,0px);
+    transform: translate(8px,15px);
 }
 .foto{
     width: 180px;
