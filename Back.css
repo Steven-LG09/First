@@ -1,37 +1,14 @@
 #main{
-    background-image: url(https://drive.google.com/file/d/1kJGdnJ66dXkrrDeFr-OUIQ8F07x3Uqf7/view?usp=sharing);
     animation: fadeIn 2s ease-in-out;
     background-color: black;
 }
-.aboutMe{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/746d5571-d784-4094-a24d-a3bdbc7e1013/dfoij5k-96c3f665-b433-47ad-a2e0-51c5b50bde53.png/v1/fill/w_1192,h_670,q_70,strp/matrix_code_in_blue_by_wuksoy_dfoij5k-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNzQ2ZDU1NzEtZDc4NC00MDk0LWEyNGQtYTNiZGJjN2UxMDEzXC9kZm9pajVrLTk2YzNmNjY1LWI0MzMtNDdhZC1hMmUwLTUxYzViNTBiZGU1My5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.C6GdxJKvZ7EwOSmDCBP-MnT4bPqo-WgPm9GzrmcCxRM);
-    animation: fadeIn 2s ease-in-out;
-    background-color: #0a4d8c;
-}
-.education{
-    background-image: url(https://img.freepik.com/premium-photo/red-matrix-code-background_161488-873.jpg);
-    animation: fadeIn 2s ease-in-out;
-    background-color: #601e19;
-}
-.atras{
-    font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
-    border-color: gray;
-    color: black;
-    font-size: medium;
-    transition-duration: 0,4s;
-    cursor: grabbing;
-}
-.atras:hover{
+.port{
+    height: 700px;
     background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.438);
 }
-.fade-out {
-    opacity: 0;
-    transition: opacity 1s ease-out;
+#section2{
+    height: 700px;
+    background-color: #35d0ef;
 }
 @keyframes fadeIn {
     from {
@@ -47,14 +24,7 @@
     margin-right: auto;
     width: 60%;
     border-radius: 20px;
-}
-.block1{
-    background-color: #601e19;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 20px;
-    padding: 5px;
+    transform: translate(0px,130px);
 }
 .line1am{
     display: flex;
@@ -70,12 +40,6 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     text-shadow: 3px 3px 5px #35d0ef ;
-}
-.nombre2{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-shadow: 3px 3px 5px #c97e77 ;
-    text-align: center;
 }
 .rol{
     font-family: 'Times New Roman', Times, serif;
@@ -96,13 +60,6 @@
     color: black;
     font-size: large;
 }
-.description2{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
-    color: black;
-    font-size: large;
-    text-align: center;
-}
 header{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -110,6 +67,7 @@ header{
     font-size: 45px;
     font-style: oblique;
     text-shadow: 3px 3px 5px #3aab73;
+    background-color: black;
 }
 h3{
     color: white;

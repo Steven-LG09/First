@@ -7,49 +7,64 @@
         </title>
         <link rel="stylesheet" href="Back.css">
         <link rel="icon" href="man.png" type="image/png">
-        <script>
-            function transitionToPage(href) {
-                document.body.classList.add('fade-out');
-                setTimeout(function() {
-                    window.location.href = href;
-                }, 1000);
-            }
-        </script>
     </head>
     <body id="main">
         <header>
             Desarrollador de Software
         </header>
-        <div id="line1">
-            <div id="line1_1">
-                <button id="button1" type="button" href="#" onclick="transitionToPage('About_me.html')"><strong>Sobre mí</strong></button>
-            </div>
-            <div id="line1_2">
-                <button id="button2" type="button" href="#" onclick="transitionToPage('Education.html')"><strong>Educación</strong></button>
-            </div>
-        </div>
-        <div id="line2">
-            <div id="line2_1">
-                <button id="button3" type="button" onclick="window.location.href='Skills.html'"><strong>Habilidades Principales</strong></button>
-            </div>
-            <div id="line2_2">
-                <div class="container">
-                    <img id="yo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DqOvCaKvDh213la9a2U2gxHaPl0lH-R4Ow&s" alt="Foto central">
-                    <div class="middle">
-                        <div class="text"><strong>STEVEN LÓPEZ</strong></div>
-                    </div>
+        <div class="port">
+            <div id="line1">
+                <div id="line1_1">
+                    <button id="button1" type="button" onclick="document.getElementById('section2').scrollIntoView({ behavior: 'smooth' });"><strong>Sobre mí</strong></button>
+                </div>
+                <div id="line1_2">
+                    <button id="button2" type="button" href="#" onclick="transitionToPage('Education.html')"><strong>Educación</strong></button>
                 </div>
             </div>
-            <div id="line2_3">
-                <button id="button4" type="button" onclick="window.location.href='Projects.html'"><strong>Proyectos</strong></button>
+            <div id="line2">
+                <div id="line2_1">
+                    <button id="button3" type="button" onclick="window.location.href='Skills.html'"><strong>Habilidades Principales</strong></button>
+                </div>
+                <div id="line2_2">
+                    <div class="container">
+                        <img id="yo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DqOvCaKvDh213la9a2U2gxHaPl0lH-R4Ow&s" alt="Foto central">
+                        <div class="middle">
+                            <div class="text"><strong>STEVEN LÓPEZ</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="line2_3">
+                    <button id="button4" type="button" onclick="window.location.href='Projects.html'"><strong>Proyectos</strong></button>
+                </div>
+            </div>
+            <div id="line3">
+                <div id="line3_1">
+                    <button id="button5" type="button" onclick="window.location.href='Work.html'"><strong>Experiencia Laboral</strong></button>
+                </div>
+                <div id="line3_2">
+                    <button id="button6" type="button" onclick="window.location.href='More.html'"><strong>Algo Más</strong></button>
+                </div>
             </div>
         </div>
-        <div id="line3">
-            <div id="line3_1">
-                <button id="button5" type="button" onclick="window.location.href='Work.html'"><strong>Experiencia Laboral</strong></button>
-            </div>
-            <div id="line3_2">
-                <button id="button6" type="button" onclick="window.location.href='More.html'"><strong>Algo Más</strong></button>
+        <div id="section2">
+            <div class="block">
+                <div class="line1am">
+                    <div class="line1_1am">
+                        <img class="foto" src="https://lh3.googleusercontent.com/pw/AP1GczM-FKTE7OHSbBmZ6r22USKV2kxaE-ISWwrMtrx_hofYYXRlpgFWJqvIEnZmnGBrOXXN_mmmI_t8-JTwcVaVLIUsJBUBgGwFwm5HXis5lZK20iqTYAoYJLNNT_jSqmSgbMnRFagBJvDQNPXklmfqRlQT=w480-h641-s-no-gm?authuser=0" alt="Foto">
+                    </div>
+                    <div class="line1_2am">
+                        <h1 class="nombre">STEVEN LÓPEZ GIRALDO</h1>
+                        <h2 class="rol">Desarrollador de Software</h2>
+                        <h2 class="rol2">Full-Stack developer</h2>
+                        <h3 class="frase">"El fin justifica los medios"</h3>
+                    </div>
+                </div>
+                <p class="description">Soy un desarrollador de software enfocado principalmente en desarrollo web, desarrollo movil y 
+                    desarrollo en otros dispositivos electronicos. Aparte de la programación tambien me llama la atención 
+                    el desarrollo de proyectos electronicos y programacion a nivel industrial enfocado en la automatización.
+                    En un futuro cercano me gustaria tener mi propia empresa la cual desarrolle software para las diferentes empresas 
+                    del pais y del mundo.
+                </p>
             </div>
         </div>
     </body>
