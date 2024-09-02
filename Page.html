@@ -11,7 +11,7 @@
     <body id="main">
         <header>
             <button id="button1" type="button" onclick="document.getElementById('section2').scrollIntoView({ behavior: 'smooth' });"><strong>Sobre mí</strong></button>
-            <button id="button2" type="button" href="#" onclick="transitionToPage('Education.html')"><strong>Educación</strong></button>
+            <button id="button2" type="button" onclick="document.getElementById('section3').scrollIntoView({ behavior: 'smooth' });"><strong>Educación</strong></button>
             <button id="button3" type="button" onclick="window.location.href='Skills.html'"><strong>Habilidades Principales</strong></button>
             <button id="button4" type="button" onclick="window.location.href='Projects.html'"><strong>Proyectos</strong></button>
             <button id="button5" type="button" onclick="window.location.href='Work.html'"><strong>Experiencia Laboral</strong></button>
@@ -47,7 +47,30 @@
             </div>
         </div>
         <div id="section3">
-            <h1>Educació</h1>
+            <div class="sec3_1">
+                <h1>Actualmente</h1>
+                <img class="imgutp" src="https://media2.utp.edu.co/imagenes/Logo-UTP-Azul.png" alt="logo utp"/>
+                <figcaption>
+                    <img class="ds" src="https://www.solusoft.es/Info/Imagenes/desarrollo-de-software/img_hero.svg" alt="desarrollo de software"/>
+                    <legend>Tecnologia en Desarrollo de Software</legend>
+                </figcaption>
+            </div>
+            <div class="sec3_2">
+                <h2>Ultimos estudios</h2>
+                <img class="imgfuc" src="https://pbs.twimg.com/media/FLj--lyXIAAEZ_L.jpg" alt="logo fuc"/>
+                <figcaption>
+                    <img class="tae" src="https://carrerasymas.com/wp-content/uploads/2022/05/20945988-scaled-1.jpg" alt="administracion de empresas"/>
+                    <legend>Tecnico en Administracion de Empresas (sin titulo)</legend>
+                </figcaption>
+            </div>
+            <div class="sec3_3">
+                <h2>Estudios Pasados</h3>
+                <img class="imgsena" src="https://seeklogo.com/images/S/sena-colombia-logo-C25D90A9FA-seeklogo.com.png" alt="logo sena"/>
+                <figcaption>
+                    <img class="tai" src="https://atriainnovation.com/uploads/2023/11/Automatizacion_Industrial_PORTADA-900x743-c-center.jpg" alt="automatizacion industrial"/>
+                    <legend>Tecnologia en Automatizacion Industrial (sin titulo)</legend>
+                </figcaption>
+            </div>
         </div>
     </body>
 </html>
