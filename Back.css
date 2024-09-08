@@ -144,6 +144,32 @@
     border-radius: 70px;
     box-shadow: 0 12px 16px 0 #e44f26, 0 17px 50px 0 #1572b6;  
 }
+.sec5_1,.sec5_2{
+    display: flex;
+    height: 50%;
+    border: 2px solid #0B2F9F;
+}
+.lines_sec5{
+    display: flex;
+    width: 33%;
+    border: 2px solid #0B2F9F;
+}
+.imagepeaje{
+    width: 200px;
+    height: 200px;
+}
+.titles_sec5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #13274F;
+    text-shadow: 3px 3px 5px #35d0ef ;
+}
+.descrip_sec5{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: #13274F;
+    font-size: large;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
