@@ -144,19 +144,48 @@
     border-radius: 70px;
     box-shadow: 0 12px 16px 0 #e44f26, 0 17px 50px 0 #1572b6;  
 }
-.sec5_1,.sec5_2{
+.sec5_1{
     display: flex;
-    height: 50%;
-    border: 2px solid #0B2F9F;
+    height: 40%;
+}
+.sec5_2{
+    display: flex;
+    height: 60%;
 }
 .lines_sec5{
     display: flex;
     width: 33%;
-    border: 2px solid #0B2F9F;
+}
+.lines2_sec5{
+    display: flex;
+    width: 47%;
 }
 .imagepeaje{
     width: 200px;
     height: 200px;
+    border-radius: 10px;
+    border: 3px solid #13274F;
+}
+.imageruta{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid #13274F;
+}
+.imagelamp{
+    width: 180px;
+    height: 280px;
+    border-radius: 10px;
+    border: 3px solid #13274F;
+}
+.imageglass{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #13274F;
+}
+.imagepeaje:hover,.imageglass:hover,.imagelamp:hover,.imageruta:hover{
+    box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 blue;
 }
 .titles_sec5{
     text-align: center;
@@ -169,6 +198,14 @@
     padding: 10px;
     color: #13274F;
     font-size: large;
+}
+.lines2_sec5_1{
+    width: 50%;
+    text-align: right;
+}
+.lines2_sec5_2{
+    width: 50%;
+    text-align: justify;
 }
 @keyframes fadeIn {
     from {
@@ -230,6 +267,14 @@ header{
     text-shadow: 3px 3px 5px #35d0ef ;
     font-size: 40px;
     box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 blue;
+}
+.project{
+    text-align: center;
+    background-color: #A3C1AD;
+    font-family: 'Times New Roman', Times, serif;
+    color: #13274F;
+    text-shadow: 3px 3px 5px #35d0ef ;
+    font-size: 40px;
 }
 h3{
     color: white;
@@ -304,4 +349,8 @@ h3{
   }
   ::-webkit-scrollbar-thumb:hover {
     background-color: #13274F; /* Color on hover */
+  }
+  .space{
+    width: 100px;
+    background-color: #A3C1AD;
   }
