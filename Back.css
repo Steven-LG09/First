@@ -207,6 +207,26 @@
     width: 50%;
     text-align: justify;
 }
+.section6{
+    display: flex;
+    height: 700px;
+    background-color: #A3C1AD;
+}
+.sec_6{
+    width: 50%;
+}
+.last{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 3px 3px 5px #35d0ef ;
+    font-size: 40px;
+}
+.exp_algo{
+    font-family: 'Times New Roman', Times, serif;
+    color: #13274F;
+    font-size: large;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -351,6 +371,7 @@ h3{
     background-color: #13274F; /* Color on hover */
   }
   .space{
-    width: 100px;
+    display: flex;
+    height: 150px;
     background-color: #A3C1AD;
   }
