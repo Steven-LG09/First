@@ -69,27 +69,74 @@
         </section>
         <section id="section3">
             <div class="sec3_1">
-                <h1>Actualmente</h1>
-                <img class="imgutp" src="https://media2.utp.edu.co/imagenes/Logo-UTP-Azul.png" alt="logo utp"/>
+                <h1 class="studies">Actualmente</h1>
+                <a href="https://www.utp.edu.co/" target="_blank"><img class="imgutp" src="https://media2.utp.edu.co/imagenes/Logo-UTP-Azul.png" alt="logo utp"/></a>
                 <figcaption>
-                    <img class="ds" src="https://www.solusoft.es/Info/Imagenes/desarrollo-de-software/img_hero.svg" alt="desarrollo de software"/>
-                    <legend>Tecnologia en Desarrollo de Software</legend>
+                    <img class="ds" src="https://www.solusoft.es/Info/Imagenes/desarrollo-de-software/img_hero.svg" onclick="toggleCloud()" alt="desarrollo de software"/>
+                    <legend class="description">Tecnologia en Desarrollo de Software</legend>
+                    <div id="cloud" class="text-cloud">
+                        La carrera de Desarrollo de Software se enfoca en la creación, diseño, implementación y mantenimiento de programas 
+                        y aplicaciones. Los estudiantes aprenden lenguajes de programación, metodologías de desarrollo, y cómo resolver 
+                        problemas mediante soluciones tecnológicas. También adquieren habilidades para trabajar en equipo y gestionar 
+                        proyectos de software.
+                    </div>
+                    <script>
+                        function toggleCloud() {
+                            var cloud = document.getElementById("cloud");
+                            if (cloud.style.display === "none" || cloud.style.display === "") {
+                                cloud.style.display = "block"; 
+                            } else {
+                                cloud.style.display = "none"; 
+                            }
+                        }
+                    </script>
                 </figcaption>
             </div>
             <div class="sec3_2">
-                <h2>Ultimos estudios</h2>
-                <img class="imgfuc" src="https://pbs.twimg.com/media/FLj--lyXIAAEZ_L.jpg" alt="logo fuc"/>
+                <h2 class="studies">Ultimos estudios</h2>
+                <a href="https://uc.edu.co/" target="_blank"><img class="imgfuc" src="https://pbs.twimg.com/media/FLj--lyXIAAEZ_L.jpg" alt="logo fuc"/></a>
                 <figcaption>
-                    <img class="tae" src="https://carrerasymas.com/wp-content/uploads/2022/05/20945988-scaled-1.jpg" alt="administracion de empresas"/>
-                    <legend>Tecnico en Administracion de Empresas (sin titulo)</legend>
+                    <img class="tae" src="https://carrerasymas.com/wp-content/uploads/2022/05/20945988-scaled-1.jpg" onclick="toggleCloud2()" alt="administracion de empresas"/>
+                    <legend class="description">Tecnico en Administracion de Empresas (sin titulo)</legend>
+                    <div id="cloud2" class="text-cloud">
+                        La carrera de Administración de Empresas se centra en la planificación, organización, dirección y control de 
+                        recursos dentro de una empresa. Los estudiantes aprenden sobre finanzas, marketing, recursos humanos y gestión 
+                        de operaciones para optimizar el rendimiento y la toma de decisiones en diversas áreas empresariales.
+                    </div>
+                    <script>
+                        function toggleCloud2() {
+                            var cloud = document.getElementById("cloud2");
+                            if (cloud.style.display === "none" || cloud.style.display === "") {
+                                cloud.style.display = "block"; 
+                            } else {
+                                cloud.style.display = "none"; 
+                            }
+                        }
+                    </script>
                 </figcaption>
             </div>
             <div class="sec3_3">
-                <h2>Estudios Pasados</h3>
-                <img class="imgsena" src="https://seeklogo.com/images/S/sena-colombia-logo-C25D90A9FA-seeklogo.com.png" alt="logo sena"/>
+                <h2 class="studies">Estudios Pasados</h3>
+                <a href="https://www.sena.edu.co/" target="_blank"><img class="imgsena" src="https://seeklogo.com/images/S/sena-colombia-logo-C25D90A9FA-seeklogo.com.png" alt="logo sena"/></a>
                 <figcaption>
-                    <img class="tai" src="https://atriainnovation.com/uploads/2023/11/Automatizacion_Industrial_PORTADA-900x743-c-center.jpg" alt="automatizacion industrial"/>
-                    <legend>Tecnologia en Automatizacion Industrial (sin titulo)</legend>
+                    <img class="tai" src="https://atriainnovation.com/uploads/2023/11/Automatizacion_Industrial_PORTADA-900x743-c-center.jpg" onclick="toggleCloud3()" alt="automatizacion industrial"/>
+                    <legend class="description">Tecnologia en Automatizacion Industrial (sin titulo)</legend>
+                    <div id="cloud3" class="text-cloud">
+                        La carrera de Automatización Industrial se enfoca en el diseño, implementación y mantenimiento de sistemas 
+                        automatizados en procesos industriales. Los estudiantes aprenden a utilizar tecnologías como controladores 
+                        programables, robótica y sistemas de control para optimizar la producción y mejorar la eficiencia en fábricas 
+                        y plantas industriales.
+                    </div>
+                    <script>
+                        function toggleCloud3() {
+                            var cloud = document.getElementById("cloud3");
+                            if (cloud.style.display === "none" || cloud.style.display === "") {
+                                cloud.style.display = "block"; 
+                            } else {
+                                cloud.style.display = "none"; 
+                            }
+                        }
+                    </script>
                 </figcaption>
             </div>
         </section>
@@ -97,29 +144,29 @@
         <section id="section4">
             <div class="sec4_1">
                 <div class="tech1">
-                    <img class="tech1img" src="https://www.vikingsoftware.com/wp-content/uploads/2024/02/C-2.png" alt="c++"/>
+                    <a href="https://www.programiz.com/cpp-programming/online-compiler/" target="_blank"><img class="tech1img" src="https://www.vikingsoftware.com/wp-content/uploads/2024/02/C-2.png" alt="c++"/></a>
                 </div>
                 <div class="hp">
                     <h2>Habilidades Principales</h2>
                 </div>
                 <div class="tech2">
-                    <img class="tech2img" src="https://loudbench.com/wp-content/uploads/2023/02/Python-logo-1024x576.png" alt="python"/>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" target="_blank"><img class="tech2img" src="https://loudbench.com/wp-content/uploads/2023/02/Python-logo-1024x576.png" alt="python"/></a>
                 </div>
             </div>
             <div class="sec4_2">
                 <div class="tech3">
-                    <img class="tech3img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/640px-C_Sharp_Logo_2023.svg.png" alt="c#"/>
+                    <a href="https://www.programiz.com/csharp-programming/online-compiler/" target="_blank"><img class="tech3img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/640px-C_Sharp_Logo_2023.svg.png" alt="c#"/></a>
                 </div>
                 <div class="tech4">
-                    <img class="tech4img" src="https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png" alt="javascript"/>
+                    <a href="https://www.programiz.com/javascript/online-compiler/" target="_blank"><img class="tech4img" src="https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png" alt="javascript"/></a>
                 </div>
             </div>
             <div class="sec4_3">
                 <div class="tech5">
-                    <img class="tech5img" src="https://miro.medium.com/v2/resize:fit:792/1*lJ32Bl-lHWmNMUSiSq17gQ.png" alt="html"/>
+                    <a href="https://www.programiz.com/html/online-compiler/" target="_blank"><img class="tech5img" src="https://miro.medium.com/v2/resize:fit:792/1*lJ32Bl-lHWmNMUSiSq17gQ.png" alt="html"/></a>
                 </div>
                 <div class="tech6">
-                    <img class="tech6img" src="https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg" alt="java"/>
+                    <a href="https://www.programiz.com/java-programming/online-compiler/" target="_blank"><img class="tech6img" src="https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg" alt="java"/></a>
                 </div>
             </div>
         </section>
@@ -223,6 +270,9 @@
     </body>
     <hr>
     <footer>
-        <p class="exp_algo" style="text-align: center;">Created by: Steven López Giraldo <br> &copy; 2024 Ao Corporation. All rights reserved. <br> <a href="your-privacy-policy-link">Privacy Policy</a> <br> <a href="your-terms-of-service-link">Terms of Service</a></p>
+        <p class="exp_algo" style="text-align: center;">Created by: Steven López Giraldo <br> 
+            &copy; 2024 Ao Corporation. All rights reserved. <br> 
+            <a href="https://steven-lg09.github.io/Portfolio/PrivacyPolicy.html" target="_blank">Privacy Policy</a> <br> 
+            <a href="https://steven-lg09.github.io/Portfolio/termsOfService.html" target="_blank">Terms of Service</a></p>
     </footer>  
 </html>

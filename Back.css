@@ -2,6 +2,13 @@
     animation: fadeIn 2s ease-in-out;
     background-color: #4B9CD3;
 }
+.privacy{
+    animation: fadeIn 2s ease-in-out;
+    background-color: #4B9CD3;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 20%;
+}
 .section1{
     height: 600px;
     background-color: #A3C1AD;
@@ -55,6 +62,12 @@
     width: 200px;
     height: 200px;
 }
+.imgutp:hover,.imgfuc:hover,.imgsena:hover{
+    box-shadow: 0 12px 16px 0 #A3C1AD, 0 17px 50px 0 blue;
+}
+.ds:hover,.tae:hover,.tai:hover{
+    cursor: pointer;
+}
 .ds{
     width: 300px;
     height: 300px;
@@ -107,6 +120,10 @@
     color: white;
     text-shadow: 3px 3px 5px #35d0ef ;
     font-size: 25px;
+}
+.tech1img:hover,.tech2img:hover,.tech3img:hover,.tech4img:hover,.tech5img:hover,.tech6img:hover{
+    box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 black;
+    
 }
 .tech1img{
     width: 150px;
@@ -254,7 +271,9 @@
     width: 30%;
     text-align: left;
 }
-
+.studies{
+    text-shadow: 3px 3px 5px black ;
+}
 .nombre{
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -364,14 +383,37 @@ h3{
     width: 15px;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: #A3C1AD; /* Color of the scrollbar thumb */
-    border-radius: 10px;     /* Rounded corners of the scrollbar thumb */
+    background-color: #A3C1AD; 
+    border-radius: 10px;    
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #13274F; /* Color on hover */
+    background-color: #13274F;
   }
   .space{
     display: flex;
     height: 150px;
     background-color: #A3C1AD;
   }
+.text-cloud {
+    display: none;
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    color: #13274F;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 blue;
+    margin-top: 0px;
+}
+
+.text-cloud::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 200px;
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #f1f1f1 transparent;
+}
+
