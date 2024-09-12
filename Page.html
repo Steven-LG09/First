@@ -39,10 +39,10 @@
             </section>
             <section class="sec1_3">
                 <div class="line_6">
-                    <button id="button5" type="button" onclick="window.location.href='Work.html'"><strong>Experiencia Laboral</strong></button>
+                    <button id="button5" type="button" onclick="document.getElementById('section6').scrollIntoView({ behavior: 'smooth' });"><strong>Experiencia Laboral</strong></button>
                 </div>
                 <div class="line_7">
-                    <button id="button6" type="button" onclick="window.location.href='More.html'"><strong>Algo Más</strong></button>
+                    <button id="button6" type="button" onclick="document.getElementById('section6').scrollIntoView({ behavior: 'smooth' });"><strong>Algo Más</strong></button>
                 </div>
             </section>
         </div>
@@ -131,7 +131,7 @@
                         <img class="imagepeaje" src="Peaje_Utp.jpeg" type="image/jpeg" alt="peaje utp">
                     </div>
                     <div class="lines2_sec5_2">
-                        <h2 class="titles_sec5">Peaje UTP</h2>
+                        <h2 class="titles_sec5">Peaje UTP&reg;</h2>
                         <p class="descrip_sec5">Es un software que le permite al operario de un peaje agilizar el proceso de facturación que este haciendo
                             en ese momento. Este proyecto se desarrolló en Visual Studio 2022 en C++ utilizando Windows Forms.
                         </p>
@@ -142,7 +142,7 @@
                         <img class="imageruta" src="mi_ruta.jpeg" type="image/jpeg" alt="peaje utp">
                     </div>
                     <div class="lines2_sec5_2">
-                        <h2 class="titles_sec5">Mi Ruta</h2>
+                        <h2 class="titles_sec5">Mi Ruta&reg;</h2>
                         <p class="descrip_sec5">Es una aplicación movil que le permite al usuario saber en tiempo real la ruta, las paradas, el tiempo de llegada,
                             y la ubicacion de cada uno de los buses del sistema publico de transporte Megabus. Este proyecto se desarrolló en Visual Studio 2022 
                             en C# utilizando Xamarin Forms.
@@ -154,7 +154,7 @@
                         <img class="imagepeaje" src="Ecolight.jpeg" type="image/jpeg" alt="peaje utp">
                     </div>
                     <div class="lines2_sec5_2">
-                        <h2 class="titles_sec5">Ecolight</h2>
+                        <h2 class="titles_sec5">Ecolight&reg;</h2>
                         <p class="descrip_sec5">Es un parqueadero para carros electricos que tiene estaciones de carga para cargar los carros,
                             ademas esta energia es suministrada gracias a los paneles solares ubicados en el parqueadero. Este proyecto se desarrolló en Packet Tracer.
                         </p>
@@ -168,7 +168,7 @@
                         <img class="imagelamp" src="lampara_shiro.jpeg" type="image/jpeg" alt="peaje utp">
                     </div>
                     <div class="lines2_sec5_2">
-                        <h2 class="titles_sec5">Lampara Shiro</h2>
+                        <h2 class="titles_sec5">Lampara Shiro&reg;</h2>
                         <p class="descrip_sec5">Es una lampara que se prende por medio de un aplauso, ademas no necesita bateria ya que cuenta con
                             un sistema de alimentacion con panel solar. Este proyecto se desarrolló en C utilizando la placa Arduino.
                         </p>
@@ -179,7 +179,7 @@
                         <img class="imageglass" src="Blasses.jpeg" type="image/jpeg" alt="peaje utp">
                     </div>
                     <div>
-                        <h2 class="titles_sec5">Blasses</h2>
+                        <h2 class="titles_sec5">Blasses&reg;</h2>
                         <p class="descrip_sec5">Son unas gafas con un sensor ultrasonico y un pequeño parlante que le ayuda a las personas ciegas o con dificultad
                             visual en su dia a dia. Este proyecto se desarrolló en C utilizando la placa Arduino.
                         </p>
@@ -188,7 +188,7 @@
             </div>
         </section>
         <section class="space"></section>
-        <section class="section6">
+        <section id="section6">
             <div class="sec_6">
                 <h2 class="last">Experiencia Laboral</h2>
                 <ul>
@@ -209,7 +209,20 @@
             <hr style="width: 2px;">
             <div class="sec_6">
                 <h2 class="last">Algo mas</h2>
+                <ul style="text-align: center;">
+                    <p class="exp_algo">Tengo nivel de ingles C1.</p>
+                    <p class="exp_algo">Tengo pasaporte.</p>
+                    <p class="exp_algo">Soy una persona de facil aprendizaje.</p>
+                    <p class="exp_algo">Me gusta leer.</p>
+                    <p class="exp_algo">Me gusta hacer ejercicio.</p>
+                    <p class="exp_algo">Me gusta la fotografia.</p>
+                    <p class="exp_algo">Me gusta bailar.</p>
+                </ul>
             </div>
         </section>
     </body>
+    <hr>
+    <footer>
+        <p class="exp_algo" style="text-align: center;">Created by: Steven López Giraldo <br> &copy; 2024 Ao Corporation. All rights reserved. <br> <a href="your-privacy-policy-link">Privacy Policy</a> <br> <a href="your-terms-of-service-link">Terms of Service</a></p>
+    </footer>  
 </html>

@@ -207,9 +207,9 @@
     width: 50%;
     text-align: justify;
 }
-.section6{
+#section6{
     display: flex;
-    height: 700px;
+    height: 500px;
     background-color: #A3C1AD;
 }
 .sec_6{
